@@ -1,0 +1,119 @@
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html  charset= utf-8"/>
+	<title>Cyber Pong</title>
+<link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+<link rel="stylesheet" type="text/css" href="CyberPong.css" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="CyberPong.js"></script>
+
+</head>
+
+
+
+<body onload="startMovingBlocks()">
+
+<div id="body">
+	<div id="header">
+		<table id="stats">
+				<tr>
+					<td>
+						<div id="Points_1">
+
+						<form name="firstPlayerPoints">
+
+								
+									<input class="in1" id="n1" type="text" name="firstPlayer" value="Player 1"/>
+									<input id="in2" type="text" name="value_1" value="0" readonly="readonly"/>
+						     
+						 </form>
+
+						</div>
+					</td>
+
+					<td>
+
+							<div id="Board">
+
+								<form name="fr">
+										<input id="question" type="text" name="operandi" value="" readonly="readonly" />
+										<input id="answer" type="text" name="result" value="" readonly="readonly" />
+								</form>
+
+							</div>
+					</td>
+
+					<td>
+			
+						<select id="points">
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						</select>
+
+					</td>
+			
+					<td>
+
+                        <div class="platform">
+
+                            <div class="switch">
+
+                                <input type="radio" name="switch" id="switch-MMK">
+                                <input type="radio" name="switch" id="switch-PC" checked>
+
+                                <label for="switch-off">MMK</label>
+                                <label for="switch-on">PC</label>
+
+                                <span class="toggle"></span>
+
+                            </div> <!-- end switch -->
+
+                        </div> <!-- end platform -->
+
+					</td>
+	
+					<td>
+						<div id="Points_2"> 
+							<form name="secondPlayerPoints">
+							     
+				                    <input class="in1" id="n2" type="text" name="secondPlayer" value="Player 2"/>
+						  		    <input id="in2" type="text" name="value_2" value="0" readonly="readonly" />
+						    </form>
+						</div>
+					</td>
+				</tr>
+		</table>
+
+	</div>
+      <!-- END Header-->
+
+      <div id="page">
+				<div id="PlayGround" align="center">
+
+
+					<img id="Ball"  src="Ball.png" >
+
+					<div id="FirsBlock"></div>
+
+					<div id="SecondBlock"></div>
+
+					<div id="vertical"></div>
+
+				
+				</div>
+
+	</div>
+<!--Page end -->
+
+<a href="#" class="start_button" type="button" onclick="Start()">
+	Start/Reset
+</a>
+<a href="#" class="stop_button" type="button" onclick="Stop()">
+	Pause
+</a>
+
+	
+</div>	
+</body>
+</html>
