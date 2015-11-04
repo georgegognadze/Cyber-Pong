@@ -51,14 +51,12 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 
 #PlayGround {
 			position: absolute;
-			background-image: url('table.jpg');			    
+			background-color: rgb(150, 224, 235);			    
 			width: 1400px;
 			height: 800px;
-            z-index: 100;
-			background-color: transparent;
 			border: solid 15px white;
 			border-radius: 30px;
-			background-size: 1400px 800px; 
+			background-size: 1400px 800px;
 		}
 
 #vertical{
@@ -103,7 +101,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 			z-index: 1000;
 			width: 20px;
 			height: 100px;
-			background-color: #72D73C;
+			background-color: #67CDDC;
 			border-radius: 20px;
 			border: solid white 3px; 
 		}
@@ -197,6 +195,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 .start_button:hover{ 
 	color: #4b7390;
 	cursor: pointer;
+	text-decoration: underline;
 	text-shadow: 0px -1px #94b8d7;
 }
 
@@ -242,6 +241,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 .stop_button:hover{ 
 	color: #4b7390;
 	cursor: pointer;
+	text-decoration: underline;
 	text-shadow: 0px -1px #94b8d7;
 }
 
