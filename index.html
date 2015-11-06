@@ -6,7 +6,16 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <meta name=viewport content="width=device-width, initial-scale=1">
 <script async src="main.js"></script>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+//paste this code under head tag or in a seperate js file.
+	// Wait for window load
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
 </head>
 
 
@@ -14,6 +23,8 @@
 <body onload="startMovingBlocks()">
 
 <div id="body">
+<div class="se-pre-con"></div>
+
 	<div id="header">
 		<table id="stats">
 				<tr>
