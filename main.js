@@ -510,9 +510,9 @@ function Move() {
 
 	if(FirstPlayerPoints == document.getElementById('points').value || SecondPlayerPoints == document.getElementById('points').value){
 
-		if(FirstPlayerPoints==document.getElementById('points').value){ alert(document.firstPlayerPoints.firstPlayer.value + " Won!");  Stop();}
+		if(FirstPlayerPoints==document.getElementById('points').value){ swal(document.firstPlayerPoints.firstPlayer.value + " Good job!", "You won the game!", "success");  Stop();}
 
-		if(SecondPlayerPoints==document.getElementById('points').value){ alert(document.secondPlayerPoints.secondPlayer.value + " Won!"); Stop();} 
+		if(SecondPlayerPoints==document.getElementById('points').value){ swal(document.secondPlayerPoints.secondPlayer.value + " Good job!", "You won the game!", "success"); Stop();} 
 
 		}
 	
