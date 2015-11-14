@@ -332,9 +332,9 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 }
 
 .switch input:checked~label:nth-of-type(1) { color: #FFFFFF; }
-.switch input:checked~label:nth-of-type(2) { color: #C8E2E1; }
+.switch input:checked~label:nth-of-type(2) { color: #A4D0CD; }
 
-.switch input~:checked~label:nth-of-type(1) { color: #C8E2E1; }
+.switch input~:checked~label:nth-of-type(1) { color: #A4D0CD; }
 .switch input~:checked~label:nth-of-type(2) { color: #FFFFFF; }
 
 .switch input:checked~.toggle {
