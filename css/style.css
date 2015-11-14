@@ -144,7 +144,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 #board{
 			width: 250px;
 			height: 60px;
-			margin-top: 15px;
+			margin-top: 18px;
 			margin-left: -5px;
 			background-color: #6DB3B3;
 			border-radius: 30px; 
@@ -271,7 +271,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 #points{
 	width: 63px;
 	height: 60px;
-	margin-top: 15px;
+	margin-top: 18px;
 	font-size: 20;
 	margin-left: 50px;
 	background-color: #93cbcb;
@@ -390,7 +390,7 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 .in1{
 
 	width: 150px;
-	min-height: 60px;
+	min-height: 64px;
 	margin-left: 5px;
 	background-color: #93cbcb;
 	border-radius: 30px;
@@ -403,10 +403,10 @@ background-image: linear-gradient(90deg, rgba(255,255,255,.07) 50%, transparent 
 #in2{
 
 	width: 60px;
-	min-height: 60px;
+	min-height: 64px;
 	border-radius: 30px;
 	text-align: center;
-	font-size: 25;
+	font-size: 30;
 }
 
 
