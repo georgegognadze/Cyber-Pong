@@ -540,7 +540,7 @@ function Start() {
 
 	else{
 
-		history.go(0); 
+		document.location.reload(true); 
 		SR = false;
 	}
 
