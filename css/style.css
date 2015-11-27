@@ -132,7 +132,8 @@ body{
 			height: 60px;
 			margin-top: 18px;
 			margin-left: -5px;
-			background-color: #6DB3B3;
+			background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+			background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
 			border-radius: 30px; 
 		}
 
