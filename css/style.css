@@ -113,6 +113,7 @@ body{
 			color: white;
 			font-size: 30;
 			background: transparent; 
+
 		}
 
 
@@ -148,6 +149,8 @@ body{
 			margin-right: 15px;
 			font-size: 28;
 			text-align: center; 
+			background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+		background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
 		}
 
 
