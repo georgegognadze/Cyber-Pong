@@ -156,9 +156,9 @@ body{
 			
 			width: 60px;
 			height: 60px;
-			border-radius: 30px;			
-			background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
-			background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+			border-radius: 30px;
+			background: -webkit-linear-gradient(90deg,#2f927e 10%,#3AA17E 90%);
+			background: linear-gradient(90deg,#2f927e 10%,#3AA17E 90%);
 			font-size: 30;
 			text-align: center; 
 		}
