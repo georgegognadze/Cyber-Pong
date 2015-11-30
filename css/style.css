@@ -149,8 +149,6 @@ body{
 			margin-right: 15px;
 			font-size: 28;
 			text-align: center; 
-			background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
-			background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
 		}
 
 
@@ -158,8 +156,9 @@ body{
 			
 			width: 60px;
 			height: 60px;
-			border-radius: 30px;
-			background-color: #A4D0CD;
+			border-radius: 30px;			
+			background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+			background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
 			font-size: 30;
 			text-align: center; 
 		}
