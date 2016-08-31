@@ -1,25 +1,21 @@
 HTML {
     zoom: 65%;
 }
-
 body {
     margin: 0px;
     padding: 0px;
-    background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
-    background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+    background: -webkit-linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
+    background: linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
 }
-
 .no-js #loader {
     display: none;
 }
-
 .js #loader {
     display: block;
     position: absolute;
     left: 100px;
     top: 0;
 }
-
 .se-pre-con {
     position: fixed;
     left: 0px;
@@ -29,14 +25,12 @@ body {
     z-index: 9999;
     background: url(preloader.gif) center no-repeat #fff;
 }
-
 #body {
     position: relative;
     margin: 20px auto;
     width: 1580px;
     height: 931px;
 }
-
 #header {
     position: relative;
     top: 0px;
@@ -44,7 +38,6 @@ body {
     width: 1580px;
     height: 100px;
 }
-
 #page {
     position: absolute;
     top: 101px;
@@ -52,18 +45,16 @@ body {
     width: 1430px;
     height: 800px;
 }
-
 #PlayGround {
     position: absolute;
-    background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
-    background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+    background: -webkit-linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
+    background: linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
     width: 1400px;
     height: 800px;
     border: solid 15px white;
     border-radius: 30px;
     background-size: 1400px 800px;
 }
-
 #vertical {
     position: absolute;
     left: 695px;
@@ -71,7 +62,6 @@ body {
     height: 800px;
     background-color: white;
 }
-
 #Ball {
     position: absolute;
     border-radius: 48px;
@@ -81,7 +71,6 @@ body {
     width: 48px;
     height: 48px;
 }
-
 #FirsBlock {
     position: absolute;
     top: 345px;
@@ -93,7 +82,6 @@ body {
     border-radius: 20px;
     border: solid white 3px;
 }
-
 #SecondBlock {
     position: absolute;
     top: 345px;
@@ -105,7 +93,6 @@ body {
     border-radius: 20px;
     border: solid white 3px;
 }
-
 #Points_1 {
     height: 60px;
     width: 360px;
@@ -115,7 +102,6 @@ body {
     font-size: 30;
     background: transparent;
 }
-
 #Points_2 {
     height: 60px;
     width: 360px;
@@ -125,17 +111,15 @@ body {
     font-size: 30;
     background: transparent;
 }
-
 #board {
     width: 250px;
     height: 60px;
     margin-top: 18px;
     margin-left: -5px;
-    background: -webkit-linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
-    background: linear-gradient(90deg,#00537E 10%,#3AA17E 90%);
+    background: -webkit-linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
+    background: linear-gradient(90deg, #00537E 10%, #3AA17E 90%);
     border-radius: 30px;
 }
-
 #question {
     width: 150px;
     height: 33px;
@@ -146,17 +130,15 @@ body {
     font-size: 28;
     text-align: center;
 }
-
 #answer {
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background: -webkit-linear-gradient(90deg,#2f927e 10%,#3AA17E 90%);
-    background: linear-gradient(90deg,#2f927e 10%,#3AA17E 90%);
+    background: -webkit-linear-gradient(90deg, #2f927e 10%, #3AA17E 90%);
+    background: linear-gradient(90deg, #2f927e 10%, #3AA17E 90%);
     font-size: 30;
     text-align: center;
 }
-
 .start_button {
     position: relative;
     width: 150px;
@@ -182,13 +164,11 @@ body {
     -moz-box-shadow: 0px 9px 0px #93AFCB;
     box-shadow: 0px 9px 0px #93AFCB;
 }
-
 .start_button:hover {
     cursor: pointer;
     text-decoration: underline;
     text-shadow: 0px -1px #94b8d7;
 }
-
 .start_button:active {
     -webkit-box-shadow: 0px 2px 0px #84261a;
     -moz-box-shadow: 0px 2px 0px #84261a;
@@ -199,7 +179,6 @@ body {
     width: 150px;
     height: 30px;
 }
-
 .stop_button {
     position: relative;
     width: 150px;
@@ -225,13 +204,11 @@ body {
     -moz-box-shadow: 0px 9px 0px #93AFCB;
     box-shadow: 0px 9px 0px #93AFCB;
 }
-
 .stop_button:hover {
     cursor: pointer;
     text-decoration: underline;
     text-shadow: 0px -1px #94b8d7;
 }
-
 .stop_button:active {
     -webkit-box-shadow: 0px 2px 0px #84261a;
     -moz-box-shadow: 0px 2px 0px #84261a;
@@ -242,7 +219,6 @@ body {
     width: 150px;
     height: 30px;
 }
-
 #points {
     width: 63px;
     height: 60px;
@@ -253,14 +229,12 @@ body {
     border-radius: 30px;
     color: #FFF;
 }
-
 .platform {
     height: 60px;
     width: 150px;
     margin-left: 100px;
     margin-top: 20px;
 }
-
 .switch {
     background: #A4D0CD;
     border-radius: 25px;
@@ -269,7 +243,6 @@ body {
     position: absolute;
     width: 130px;
 }
-
 .switch label {
     color: #13AEA4;
     font-size: 30px;
@@ -283,19 +256,16 @@ body {
     transition: color .2s ease;
     width: 100px;
 }
-
 .switch label:nth-of-type(1) {
     position: absolute;
     left: 20%;
     text-align: right;
 }
-
 .switch label:nth-of-type(2) {
     position: absolute;
     padding-left: 3px;
     text-align: left;
 }
-
 .switch input {
     height: 60px;
     left: 0;
@@ -305,35 +275,27 @@ body {
     width: 130px;
     z-index: 2;
 }
-
 .switch input:checked~label:nth-of-type(1) {
     color: #FFFFFF;
 }
-
 .switch input:checked~label:nth-of-type(2) {
     color: #A4D0CD;
 }
-
 .switch input~:checked~label:nth-of-type(1) {
     color: #A4D0CD;
 }
-
 .switch input~:checked~label:nth-of-type(2) {
     color: #FFFFFF;
 }
-
 .switch input:checked~.toggle {
     left: 0px;
 }
-
 .switch input~:checked~.toggle {
     left: 79px;
 }
-
 .switch input:checked {
     z-index: 0;
 }
-
 .toggle {
     background: #FFF;
     border-radius: 50%;
@@ -349,7 +311,6 @@ body {
     width: 50px;
     z-index: 1;
 }
-
 #platform {
     width: 100px;
     height: 60px;
@@ -360,7 +321,6 @@ body {
     border-radius: 30px;
     color: #FFF;
 }
-
 #playersform {
     position: absolute;
     top: 760px;
@@ -369,7 +329,6 @@ body {
     height: 100px;
     font-weight: 100;
 }
-
 .in1 {
     width: 150px;
     min-height: 64px;
@@ -381,7 +340,6 @@ body {
     border: none;
     text-align: center;
 }
-
 #in2 {
     width: 60px;
     min-height: 64px;
@@ -390,15 +348,12 @@ body {
     font-size: 30;
     background-color: #93cbcb;
 }
-
 #stats {
     margin-left: 20px;
 }
-
 ::selection {
     background: #93cbcb;
 }
-
 ::-moz-selection {
     background: #93cbcb;
 }
